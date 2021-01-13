@@ -1,0 +1,145 @@
+#contact-banner
+{
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#contact-banner h2
+{
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'montserratsemibold';
+  font-size: 48px;
+}
+
+#contact-form h2
+{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 60px;
+  font-family: 'montserratbold';
+}
+#contact-form
+{
+  margin-bottom: 80px;
+}
+#contact-form .form-text-wrapper h3
+{
+  font-size: 24px;
+  font-family: 'montserratbold';
+  margin-bottom: 10px;
+}
+#contact-form .form-text-wrapper img
+{
+  padding-right: 10px;
+}
+#contact-form .form-text-wrapper p a
+{
+  color: #4c4d4d;
+  font-size: 20px;
+  font-family: 'montserratmedium';
+  text-decoration: none;
+}
+#contact-form .contact-form-wrapper
+{
+  background-color: #ebebeb;
+  padding: 30px;
+}
+#contact-form .contact-form-wrapper label
+{
+  color:#4c4d4d;
+  font-size: 16px;
+  font-family: 'montserratmedium';
+}
+#contact-form .contact-form-wrapper input
+{
+  border-radius: unset !important;
+}
+#contact-form .contact-form-wrapper .btn-submit
+{
+  background-color: #7d7d7d;
+  border-radius: unset !important;
+  text-transform: uppercase;
+  color:#fff;
+  font-family: 'montserratbold';
+  font-size: 16px;
+}
+#contact-form .contact-form-wrapper select
+{
+  max-width: 100%;
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+#contact-form .contact-form-wrapper textarea
+{
+  width:100%;
+  border: 1px solid #ccc;
+}
+@media(max-width:768px)
+{
+  #contact-banner
+  {
+    height: 400px;
+  }
+  #contact-banner h2
+  {
+    font-size: 26px;
+  }
+  #contact-form h2
+  {
+    margin-top: 0px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  #contact-form .form-text-wrapper h3
+  {
+    font-size: 18px;
+  }
+  #contact-form .form-text-wrapper p a
+  {
+    font-size: 14px;
+  }
+}
+
+@media(min-width:769px) and (max-width:992px)
+{
+  #contact-banner
+  {
+    height: 500px;
+  }
+  #contact-form h2
+  {
+    font-size: 36px !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+  }
+  .form-text-wrapper
+  {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media(min-width:993px) and (max-width:1200px)
+{
+  #contact-banner
+  {
+    height: 550px;
+  }
+}
+
+@media(max-width:992px)
+{
+  .form-text-wrapper
+  {
+    margin-bottom: 15px;
+  }
+}

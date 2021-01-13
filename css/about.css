@@ -1,0 +1,92 @@
+#about-banner
+{
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+#about-wrapper
+{
+  margin-bottom: 30px;
+}
+
+#about-wrapper h2
+{
+  font-size: 36px;
+  font-family: 'montserratbold';
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  width: 100%;
+}
+#about-wrapper h2 span
+{
+  border-bottom: 4px solid #ffe346;
+}
+#about-wrapper p
+{
+  font-size: 18px;
+  color: #4c4d4d;
+  font-family: 'montserratregular';
+  margin-bottom: 20px;
+  width: 80%;
+  text-align: center;
+  margin: 0px auto 20px;
+}
+@media(max-width:767px)
+{
+  #about-banner
+  {
+    background-size: cover;
+    height: 200px;
+  }
+  #about-wrapper h2
+  {
+    font-size: 22px;
+  }
+  #about-wrapper p
+  {
+    font-size: 16px;
+    width:100%;
+  }
+  #about-wrapper h2
+  {
+    margin-top: 20px;
+  }
+}
+
+@media(min-width:601px) and (max-width:768px)
+{
+  #about-banner
+  {
+    height: 250px !important;
+  }
+}
+
+@media(min-width:768px) and (max-width:1200px)
+{
+  #about-banner
+  {
+    background-size: cover;
+    height: 450px;
+  }
+}
+
+
+@media(min-width:1851px)
+{
+  #about-banner
+  {
+    height: 950px;
+  }
+}
+
+@media(min-width:2751px)
+{
+  #about-banner
+  {
+    height: 1050px;
+  }
+}
